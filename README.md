@@ -166,11 +166,6 @@ az security pricing create --name virtualMachines --tier Standard
        --name RemediateVuln \
        --content @remediate_vuln.ps1
      ```
-
-2. **Link the Runbook to ASC Alerts**
-
-   *This involves setting up a Logic App or webhook trigger that calls the runbook when ASC raises an alert. This can be done using ARM templates or the portal; CLI setup may require further scripting.*
-
 ---
 
 ## **Step 7: Reporting and Documentation**
